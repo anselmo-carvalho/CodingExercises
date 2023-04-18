@@ -6,15 +6,10 @@ public class EqualSumChecker {
         System.out.println(hasEqualSum(1, 1, 2));
         System.out.println(hasEqualSum(1, -1, 0));
     }
-
     public static boolean hasEqualSum(int a, int b, int c) {
 
-        boolean status = true;
-        if ((a + b) == c ) {
-            status = true;
-        } else {
-            status = false;
-        }
+        boolean status;
+        status = (a + b) == c;
     return status;
     }
 }

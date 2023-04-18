@@ -35,23 +35,15 @@ public class GreatestCommonDivisor {
 
         // Loop through all numbers from 1 to the minimum of the two numbers
         for (int i = 1; i <= test; i++) {
-
             // Check if the current number divides the first number
-            if (first % i == 0) {
-                dividerFirst = i;
-            }
-
+            if (first % i == 0) dividerFirst = i;
             // Check if the current number divides the second number
-            if (second % i == 0) {
-                dividerSecond = i;
-            }
-
+            if (second % i == 0) dividerSecond = i;
             // If the dividers are equal, store the current divider as the greatest common divisor
             if (dividerFirst == dividerSecond) {
                 greatestCommonDivisor = dividerFirst;
             }
         }
-
         // Return the greatest common divisor
         return greatestCommonDivisor;
     }

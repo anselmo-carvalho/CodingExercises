@@ -17,7 +17,6 @@ public class TeenNumberChecker {
         System.out.println(isTeen(9));
         System.out.println(isTeen(13));
     }
-
     /**
      * Checks if any of the three input numbers is a teen (between 13 and 19 inclusive).
      * @param a first number

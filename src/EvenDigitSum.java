@@ -8,11 +8,7 @@ public class EvenDigitSum {
 
     public static int getEvenDigitSum(int number) {
 
-        if (number < 0 ) {
-            return -1;
-        }
-        int reverse = 0;
-        int compareNumber = number;
+        if (number < 0 ) return -1;
         int sumEvenDigits = 0;
 
         while(number != 0) {

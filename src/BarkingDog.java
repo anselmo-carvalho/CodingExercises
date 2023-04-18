@@ -6,7 +6,6 @@ public class BarkingDog {
         // true = Wake up
         System.out.println(shouldWakeUp(false, 2));
     }
-
     /**
      * This method takes two parameters, a boolean barking and an integer hourOfDay.
      * It returns a boolean value indicating whether we should wake up or not.

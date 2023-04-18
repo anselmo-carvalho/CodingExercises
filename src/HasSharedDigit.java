@@ -6,7 +6,6 @@ public class HasSharedDigit {
             // Test the hasSharedDigit method with two numbers (12 and 13)
             System.out.println(hasSharedDigit(12, 13));
         }
-
         /**
          * This method checks if two integers (firstNumber and secondNumber) share at least one digit.
          * The method only works for numbers between 10 and 99 (inclusive).
@@ -27,7 +26,7 @@ public class HasSharedDigit {
             }
 
             int testFirstNumber = firstNumber;
-            int testSecondNumber = secondNumber;
+            int testSecondNumber;
 
             // Iterate through each digit of the first number
             while(testFirstNumber > 0) {

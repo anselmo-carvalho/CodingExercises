@@ -14,6 +14,7 @@ Reverses the input number by iterating through its digits, starting from the las
 
 getDigitCount method:
 Returns the count of digits in the input number. If the number is negative, it returns -1 to indicate an invalid value.
+It's used to print the correct number of trailing "0"s
  */
     public static void main(String[] args) {
 
@@ -66,11 +67,9 @@ Returns the count of digits in the input number. If the number is negative, it r
                             System.out.println("Nine");
                             break;
                     }
-
                     reversedNumber /= 10;
                     printedDigits++;
                 }
-
                 while (printedDigits < digitCount) {
                     System.out.println("Zero");
                     printedDigits++;

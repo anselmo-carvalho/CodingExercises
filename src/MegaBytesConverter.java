@@ -10,7 +10,6 @@ public class MegaBytesConverter {
             System.out.println("Invalid Value");
             return;
         }
-
         // Calculate megabytes and remaining kilobytes
         int megaBytes = kiloBytes / 1024;
         int remainingKiloBytes = kiloBytes % 1024;

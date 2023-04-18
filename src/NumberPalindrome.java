@@ -34,7 +34,6 @@ public class NumberPalindrome {
             reverse += lastDigit;
             number /= 10;
         }
-
         // Check if the original number and the reversed number are equal
         if (compareNumber - reverse == 0) {
             status = true;
